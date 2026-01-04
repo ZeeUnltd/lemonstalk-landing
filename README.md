@@ -1,4 +1,4 @@
-# Fauna - Next.js Template
+# Lemonstalk - Next.js Template
 
 A modern, feature-rich Next.js application template built with TypeScript, TailwindCSS, and React 19. This template provides a complete foundation for building web applications with a clean architecture and reusable components.
 
