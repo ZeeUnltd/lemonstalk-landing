@@ -54,8 +54,13 @@ const Navigation = ({
           <div className="flex justify-between h-16">
             {showLogo && (
               <div className="flex items-center">
-                <Link href="/" className="text-xl font-bold text-gray-900">
-                  Logo
+                <Link href="/">
+                  <Image
+                    src="/images/lemonstalk-logo-green.svg"
+                    alt="Lemonstalk"
+                    width={120}
+                    height={32}
+                  />
                 </Link>
               </div>
             )}
@@ -107,8 +112,7 @@ const Navigation = ({
               {showLogo && (
                 <Link href="/" className="inline-block">
                   <Image
-                    className="h-8"
-                    src="/images/Lemonstalk-logo-white.png"
+                    src="/images/lemonstalk-logo-white.png"
                     alt="Lemonstalk"
                     width={120}
                     height={32}
@@ -122,7 +126,7 @@ const Navigation = ({
                   <li key={item.to} className="mr-8 last:mr-0">
                     <Link
                       href={item.to}
-                      className="inline-block text-white hover:text-lime-500 font-medium transition-colors duration-200"
+                      className="inline-block text-white hover:text-lime-500 font-semibold transition-all duration-300 hover:scale-105 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-lime-500 after:transition-all after:duration-300 hover:after:w-full"
                     >
                       {item.label}
                     </Link>
@@ -135,7 +139,7 @@ const Navigation = ({
                   <div className="hidden md:block">
                     <Link
                       href="/contact"
-                      className="inline-flex group py-2.5 px-4 items-center justify-center text-sm font-medium text-white hover:text-teal-900 border border-white hover:bg-white rounded-full transition duration-200"
+                      className="inline-flex group py-2.5 px-4 items-center justify-center text-sm font-semibold text-white hover:text-teal-900 border-2 border-white hover:bg-white rounded-full transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg"
                     >
                       <span className="mr-2">Get in touch</span>
                       <span className="transform group-hover:translate-x-0.5 transition-transform duration-200">
@@ -147,7 +151,7 @@ const Navigation = ({
 
                 {/* Mobile Menu Button */}
                 <button
-                  className="md:hidden text-white hover:text-lime-500 transition-colors duration-200"
+                  className="md:hidden text-white hover:text-lime-500 transition-all duration-300 transform hover:scale-110"
                   onClick={toggleMobileNav}
                   aria-label="Toggle mobile menu"
                   aria-expanded={mobileNavOpen}
@@ -196,11 +200,10 @@ const Navigation = ({
               {showLogo && (
                 <Link href="/" className="inline-block" onClick={closeMobileNav}>
                   <Image
-                    className="h-32"
-                    src="/images/Lemonstalk-logo-white.png"
+                    src="/images/lemonstalk-logo-green.svg"
                     alt="Lemonstalk"
-                    width={320}
-                    height={160}
+                    width={120}
+                    height={32}
                   />
                 </Link>
               )}

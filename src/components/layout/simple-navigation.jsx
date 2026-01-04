@@ -13,7 +13,7 @@ const SimpleNavigation = () => {
         <div className="container mx-auto px-4">
           <div className="relative flex items-center justify-between">
             <Link className="inline-block" href="/">
-              <Image className="h-8" src="/images/logo.svg" alt="" width={120} height={32} />
+              <Image src="/images/lemonstalk-logo-green.svg" alt="Lemonstalk" width={120} height={32} />
             </Link>
             <ul className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden md:flex">
               <li className="mr-4 lg:mr-8">
@@ -55,7 +55,7 @@ const SimpleNavigation = () => {
         <nav className="relative flex flex-col py-7 px-10 w-full h-full bg-white overflow-y-auto">
           <div className="flex items-center justify-between">
             <Link className="inline-block" href="/">
-              <Image className="h-8" src="/images/Lemonstalk-logo.svg" alt="Lemonstalk" width={120} height={32} />
+              <Image src="/images/lemonstalk-logo-green.svg" alt="Lemonstalk" width={120} height={32} />
             </Link>
             <div className="flex items-center">
               <Link className="inline-flex py-2.5 px-4 items-center justify-center text-sm font-medium text-teal-900 hover:text-white border border-teal-900 hover:bg-teal-900 rounded-full transition duration-200" href="/login">Login</Link>

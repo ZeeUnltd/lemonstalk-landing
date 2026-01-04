@@ -28,22 +28,22 @@ const FAQItem = ({ faq, isOpen, onToggle }) => {
 
   return (
     <button
-      className="flex w-full py-6 px-8 mb-4 items-start justify-between text-left shadow-md rounded-2xl"
+      className="flex w-full py-6 px-8 mb-4 items-start justify-between text-left shadow-md hover:shadow-lg rounded-2xl transition-all duration-300 hover:scale-[1.02] bg-white"
       onClick={onToggle}
     >
       <div>
         <div className="pr-5">
-          <h5 className="text-lg font-medium">{faq.question}</h5>
+          <h5 className="text-lg font-bold text-gray-900">{faq.question}</h5>
         </div>
         <div
           ref={contentRef}
           className="overflow-hidden pr-5 duration-500 transition-all"
           style={{ height: isOpen ? `${contentHeight}px` : '0px' }}
         >
-          <p className="text-gray-700 mt-4">{faq.answer}</p>
+          <p className="text-gray-800 mt-4 leading-relaxed">{faq.answer}</p>
         </div>
       </div>
-      <span className="flex-shrink-0">
+      <span className="flex-shrink-0 transition-transform duration-300" style={{ transform: isOpen ? 'rotate(180deg)' : 'rotate(0deg)' }}>
         <div className={isOpen ? 'hidden' : ''}>
           <PlusIcon />
         </div>

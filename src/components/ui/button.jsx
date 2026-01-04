@@ -21,14 +21,14 @@ const Button = ({
   type = 'button',
   ...props
 }) => {
-  const baseClasses = 'inline-flex items-center justify-center font-medium transition duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2';
+  const baseClasses = 'inline-flex items-center justify-center font-semibold transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 transform hover:scale-105 active:scale-95';
 
   const variantClasses = {
-    primary: 'text-teal-900 border border-lime-500 hover:border-white bg-lime-500 hover:bg-white focus:ring-lime-500',
-    secondary: 'text-white hover:text-teal-900 border border-white hover:bg-white focus:ring-white',
-    outline: 'text-teal-900 hover:text-white border border-teal-900 hover:bg-teal-900 focus:ring-teal-900',
-    link: 'text-gray-700 hover:text-gray-900',
-    register: 'bg-blue-600 text-white hover:bg-blue-700 focus:ring-blue-500'
+    primary: 'text-teal-900 border-2 border-lime-500 hover:border-white bg-lime-500 hover:bg-white focus:ring-lime-500 shadow-md hover:shadow-lg',
+    secondary: 'text-white hover:text-teal-900 border-2 border-white hover:bg-white focus:ring-white shadow-md hover:shadow-lg',
+    outline: 'text-teal-900 hover:text-white border-2 border-teal-900 hover:bg-teal-900 focus:ring-teal-900 shadow-sm hover:shadow-md',
+    link: 'text-gray-800 hover:text-gray-900 font-semibold hover:underline',
+    register: 'bg-blue-600 text-white hover:bg-blue-700 focus:ring-blue-500 shadow-md hover:shadow-xl'
   };
 
   const sizeClasses = {

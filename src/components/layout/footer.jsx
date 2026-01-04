@@ -145,9 +145,8 @@ const Footer = ({
           <div className="w-full lg:w-2/12 xl:w-2/12 px-4 mb-16 lg:mb-0">
             <Link href="/" className="inline-block mb-4">
               <Image
-                src="/images/logo.svg"
+                src="/images/lemonstalk-logo-green.svg"
                 alt={`${companyName} Logo`}
-                className="h-8"
                 width={120}
                 height={32}
               />

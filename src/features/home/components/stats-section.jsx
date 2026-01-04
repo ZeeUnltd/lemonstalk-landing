@@ -13,11 +13,11 @@ const StatsSection = () => {
                 index === 2 ? 'mb-10 sm:mb-0' : ''
               }`}
             >
-              <div className="text-center">
-                <h5 className="text-2xl xs:text-3xl lg:text-4xl xl:text-5xl mb-4">
+              <div className="text-center group cursor-default transition-all duration-300 hover:scale-105">
+                <h5 className="text-2xl xs:text-3xl lg:text-4xl xl:text-5xl font-bold mb-4 text-gray-900 transition-colors duration-300 group-hover:text-teal-700">
                   {stat.value}
                 </h5>
-                <span className="text-base lg:text-lg text-gray-700">
+                <span className="text-base lg:text-lg text-gray-700 font-medium">
                   {stat.label}
                 </span>
               </div>

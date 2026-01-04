@@ -65,11 +65,11 @@ const TestimonialCarousel = () => {
               >
                 {testimonialsData.map((testimonial) => (
                   <div key={testimonial.id} className="flex-shrink-0 px-4 w-full">
-                    <h4 className="text-3xl lg:text-4xl font-medium mb-10">
+                    <h4 className="text-3xl lg:text-4xl font-bold mb-10 text-gray-900 leading-snug">
                       "{testimonial.quote}"
                     </h4>
-                    <span className="block text-xl font-medium">{testimonial.name}</span>
-                    <span className="block mb-12 lg:mb-32 text-lg text-gray-700">{testimonial.role}</span>
+                    <span className="block text-xl font-bold text-gray-900">{testimonial.name}</span>
+                    <span className="block mb-12 lg:mb-32 text-lg text-gray-700 font-medium">{testimonial.role}</span>
                   </div>
                 ))}
               </div>
@@ -77,14 +77,14 @@ const TestimonialCarousel = () => {
               {/* Navigation Controls */}
               <div>
                 <button
-                  className="inline-block mr-4 text-gray-700 hover:text-lime-500"
+                  className="inline-block mr-4 text-gray-700 hover:text-teal-700 transition-all duration-300 transform hover:scale-110 active:scale-95"
                   onClick={goToPrevious}
                   aria-label="Previous testimonial"
                 >
                   <PreviousIcon />
                 </button>
                 <button
-                  className="inline-block text-gray-700 hover:text-lime-500"
+                  className="inline-block text-gray-700 hover:text-teal-700 transition-all duration-300 transform hover:scale-110 active:scale-95"
                   onClick={goToNext}
                   aria-label="Next testimonial"
                 >
