@@ -1,4 +1,4 @@
-import AnnouncementBar from '@/components/layout/announcement-bar';
+// import AnnouncementBar from '@/components/layout/announcement-bar';
 import SimpleNavigation from '@/components/layout/simple-navigation';
 import AboutHero from '@/features/about/components/about-hero';
 import AboutDetails from '@/features/about/components/about-details';

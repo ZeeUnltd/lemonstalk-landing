@@ -1,4 +1,4 @@
-import AnnouncementBar from '@/components/layout/announcement-bar';
+// import AnnouncementBar from '@/components/layout/announcement-bar';
 import CTASection from '@/components/layout/cta-section';
 import { Navigation, Footer } from '@/components/ui';
 import StatsSection from '@/features/home/components/stats-section';

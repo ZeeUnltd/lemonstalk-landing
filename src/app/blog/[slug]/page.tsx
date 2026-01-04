@@ -3,7 +3,7 @@
 import { useEffect, use } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import AnnouncementBar from '@/components/layout/announcement-bar';
+// import AnnouncementBar from '@/components/layout/announcement-bar';
 import SimpleNavigation from '@/components/layout/simple-navigation';
 import Footer from '@/components/layout/footer';
 import CTASection from '@/components/layout/cta-section';

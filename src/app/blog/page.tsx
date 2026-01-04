@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import AnnouncementBar from '@/components/layout/announcement-bar';
+// import AnnouncementBar from '@/components/layout/announcement-bar';
 import SimpleNavigation from '@/components/layout/simple-navigation';
 import BlogHeader from '@/features/blog/components/blog-header';
 import FeaturedPost from '@/features/blog/components/featured-post';

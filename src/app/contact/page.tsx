@@ -1,4 +1,4 @@
-import AnnouncementBar from '@/components/layout/announcement-bar';
+// import AnnouncementBar from '@/components/layout/announcement-bar';
 import SimpleNavigation from '@/components/layout/simple-navigation';
 import ContactHero from '@/features/contact/components/contact-hero';
 import CTASection from '@/components/layout/cta-section';

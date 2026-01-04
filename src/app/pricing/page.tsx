@@ -1,4 +1,4 @@
-import AnnouncementBar from '@/components/layout/announcement-bar';
+// import AnnouncementBar from '@/components/layout/announcement-bar';
 import SimpleNavigation from '@/components/layout/simple-navigation';
 import PricingHero from '@/features/pricing/components/pricing-hero';
 import PricingCards from '@/features/pricing/components/pricing-cards';
