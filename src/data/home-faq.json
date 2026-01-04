@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "question": "What services does Lemonstalk provide?",
+    "answer": "We specialize in custom AI-powered enterprise applications, workflow automation through AutomatePro, AI-driven compliance solutions via Regentcomply.ai, and enterprise architecture & governance-as-a-service. Our solutions help organizations modernize operations and accelerate digital transformation."
+  },
+  {
+    "id": 2,
+    "question": "What industries do you serve?",
+    "answer": "We serve organizations across multiple industries including financial services, real estate, regulated industries requiring compliance automation, and enterprises seeking digital transformation. Our team has over 20 years of cross-border, multi-industry experience."
+  },
+  {
+    "id": 3,
+    "question": "How does AutomatePro differ from other automation platforms?",
+    "answer": "AutomatePro is a no-code, enterprise-grade platform delivered as SaaS, offering centralized document management and automation across ERP functions. It's designed for enterprises requiring robust, scalable workflow automation without extensive coding."
+  },
+  {
+    "id": 4,
+    "question": "What is your implementation approach?",
+    "answer": "We follow an AI-centric and Agile-driven delivery approach, combining best-in-class tools with top industry talent. Our process emphasizes collaboration, rapid iteration, and delivering pragmatic solutions tailored to complex business environments."
+  },
+  {
+    "id": 5,
+    "question": "Do you offer ongoing support after implementation?",
+    "answer": "Yes, we provide comprehensive support services to ensure client success. Our commitment to excellence is reflected in our 99.9% client satisfaction rate. We remain adaptable and solution-oriented throughout our partnerships."
+  }
+]

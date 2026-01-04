@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "AI-Powered Enterprise Applications",
+    "description": "Custom-built intelligent applications that transform business processes, enhance decision-making, and drive operational efficiency through advanced AI and machine learning capabilities.",
+    "icon": "ev-charging",
+    "link": "#"
+  },
+  {
+    "id": 2,
+    "title": "AutomatePro",
+    "description": "No-code, enterprise-grade workflow automation platform delivered as SaaS. Centralized document management with automation across ERP functions and specialized business processes.",
+    "icon": "solar",
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "title": "Regentcomply.ai",
+    "description": "AI-powered compliance automation for regulated industries. Intelligent workflows, proactive monitoring, and streamlined regulatory reporting to ensure continuous compliance.",
+    "icon": "wind",
+    "link": "#"
+  },
+  {
+    "id": 4,
+    "title": "Enterprise Architecture & Governance",
+    "description": "Governance-as-a-service solutions enabling seamless operations, simplified resource management, and scalable growth through integrated enterprise architecture.",
+    "icon": "hydro",
+    "link": "#"
+  }
+]

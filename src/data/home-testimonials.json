@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "quote": "Lemonstalk transformed our compliance processes with Regentcomply.ai. The AI-powered automation saved us countless hours and significantly reduced regulatory risk. Their team's expertise is unmatched.",
+    "name": "Adebayo Okonkwo",
+    "role": "Chief Compliance Officer, Financial Services",
+    "image": "/images/testimonial-photo-lg.png"
+  },
+  {
+    "id": 2,
+    "quote": "AutomatePro streamlined our entire workflow ecosystem. The no-code platform empowered our teams to automate processes without IT bottlenecks. Outstanding solution and support.",
+    "name": "Chioma Eze",
+    "role": "CTO, Enterprise Solutions Group",
+    "image": "/images/testimonial-photo-lg.png"
+  },
+  {
+    "id": 3,
+    "quote": "Working with Lemonstalk has been transformative for our digital journey. Their team brings deep expertise, delivers on time, and provides solutions that truly drive business value.",
+    "name": "Michael Adeleke",
+    "role": "Head of Digital Transformation",
+    "image": "/images/testimonial-photo-lg.png"
+  }
+]
